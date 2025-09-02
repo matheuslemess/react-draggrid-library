@@ -1,0 +1,39 @@
+{
+  "name": "react-draggrid-library",
+  "private": false,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Uma biblioteca de componentes React para criar dashboards com grids arrastáveis e redimensionáveis.",
+  "author": "Matheus Lemes <konfunzed@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "grid",
+    "draggable",
+    "resizable",
+    "dashboard"
+  ],
+  "main": "./dist/react-drag-grid.umd.js",
+  "module": "./dist/react-drag-grid.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/react-drag-grid.es.js",
+      "require": "./dist/react-drag-grid.umd.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "vite": "^5.0.0"
+  }
+}
