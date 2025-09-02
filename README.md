@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="React DashGrid Logo" title="React DashGrid" src="./img/imagegrid.png" />
+  <img alt="React DashGrid Logo" title="React DashGrid" src="./img/rino.png"   />
 </h1>
 
 <h3 align="center">
@@ -7,20 +7,20 @@ Uma biblioteca de componentes React leve e poderosa para criar dashboards com gr
 </h3>
 
 <p align="center">
-  <img alt="NPM Version" src="https://img.shields.io/npm/v/react-dashgrid">
-  <img alt="NPM License" src="https://img.shields.io/npm/l/react-dashgrid">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/matheuslemes/react-dashgrid?color=%2304D361">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/matheuslemes/react-dashgrid">
-  <a href="https://github.com/matheuslemes/react-dashgrid/commits/main">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/matheuslemes/react-dashgrid">
+  <img alt="NPM Version" src="https://img.shields.io/npm/v/react-draggrid-library">
+  <img alt="NPM License" src="https://img.shields.io/npm/l/react-draggrid-library">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/matheuslemess/react-draggrid-library?color=%2304D361">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/matheuslemess/react-draggrid-library">
+  <a href="https://github.com/matheuslemess/react-draggrid-library/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/matheuslemess/react-draggrid-library">
   </a>
-  <a href="https://github.com/matheuslemes/react-dashgrid/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/matheuslemes/react-dashgrid?style=social">
+  <a href="https://github.com/matheuslemess/react-draggrid-library/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/matheuslemess/react-draggrid-library?style=social">
   </a>
 </p>
 
 <p align="center">
-  <a href="#-por-que-react-dashgrid">Por que React DashGrid?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-por-que-react-draggrid-library">Por que React DragGrid Library?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-usar">Como Usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-api">API</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -31,7 +31,7 @@ Uma biblioteca de componentes React leve e poderosa para criar dashboards com gr
 
 ---
 
-## 🚀 Por que React DashGrid?
+## 🚀 Por que React DragGrid Library?
 
 - 📦 **Layout Inteligente**: Organiza os cards automaticamente para preencher os espaços da melhor forma, sem deixar "buracos".
 - ↔️ **Leve e Sem Dependências**: Construído com React puro, sem bibliotecas externas pesadas.
@@ -43,24 +43,23 @@ Uma biblioteca de componentes React leve e poderosa para criar dashboards com gr
 ## 📦 Instalação
 
 ```bash
-npm install react-dashgrid
+npm install react-draggrid-library
 # ou
-yarn add react-dashgrid
-```
+yarn add react-draggrid-library
 
 ---
 
 ## 🛠️ Como Usar
 
-A `react-dashgrid` exporta um componente principal: `<Droppable />`.
+A react-draggrid-library exporta um componente principal: <Droppable />.
 Você deve gerenciar o estado dos seus cards e passar para o componente, junto com uma função que renderiza seus cards customizados.
 
 ```jsx
 import React, { useState } from 'react';
-import { Droppable } from 'react-dashgrid';
+import { Droppable } from 'react-draggrid-library';
 
 // IMPORTANTE: Importe os estilos base da biblioteca para o drag-and-drop funcionar.
-import 'react-dashgrid/dist/style.css';
+import 'react-draggrid-library/dist/style.css';
 
 // 1. Defina o seu componente de Card customizado
 const MyCard = ({ card, onRemove }) => (
@@ -139,7 +138,7 @@ Cada objeto no array `cards` deve conter, no mínimo, as seguintes propriedades:
 
 ## 🖼️ Demonstração Online
 
-👉 *Veja a biblioteca em ação aqui!* [Vercel](https://dashboard-interativo-livid.vercel.app/)
+👉 *Veja a biblioteca em ação na [Vercel]!*(https://dashboard-interativo-livid.vercel.app/)
 
 ---
 
@@ -157,14 +156,14 @@ Este projeto está sob a licença **MIT**.
 ---
 
 <p align="center">
-  Feito por Matheus Lemes
+Feito por Matheus Lemes
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/ibn/4matheuslemes">
-    <img alt="Conecte-se comigo no LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white">
-  </a>
-  <a href="https://github.com/matheuslemess">
-    <img alt="Siga-me no GitHub" src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white">
-  </a>
+<a href="https://www.linkedin.com/ibn/4matheuslemes">
+<img alt="Conecte-se comigo no LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white">
+</a>
+<a href="https://github.com/matheuslemess">
+<img alt="Siga-me no GitHub" src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white">
+</a>
 </p>
