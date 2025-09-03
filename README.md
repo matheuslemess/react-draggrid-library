@@ -138,7 +138,7 @@ Cada objeto no array `cards` deve conter, no mínimo, as seguintes propriedades:
 
 ## 🖼️ Demonstração Online
 
-👉 *Veja a biblioteca em ação na [Vercel]!*(https://dashboard-interativo-livid.vercel.app/)
+👉 *Veja a biblioteca em ação na [Vercel](https://dashboard-interativo-livid.vercel.app/)*
 
 ---
 
